@@ -1,0 +1,14 @@
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\bin\Debug\CursorSetAutoRun.exe.config
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\bin\Debug\CursorSetAutoRun.exe
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\bin\Debug\CursorSetAutoRun.pdb
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun.csprojAssemblyReference.cache
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\MainWindow.g.cs
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\App.g.cs
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun_MarkupCompile.cache
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun_MarkupCompile.lref
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\MainWindow.baml
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun.g.resources
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun.Properties.Resources.resources
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun.csproj.GenerateResource.cache
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun.exe
+F:\AbearGitHub\MousePointer\鼠标指针\CursorSetAutoRun\obj\Debug\CursorSetAutoRun.pdb

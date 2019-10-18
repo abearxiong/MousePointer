@@ -1,0 +1,13 @@
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\bin\Release\CursorSetAutoRun.exe.config
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\bin\Release\CursorSetAutoRun.exe
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\bin\Release\CursorSetAutoRun.pdb
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\MainWindow.g.cs
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\App.g.cs
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun_MarkupCompile.cache
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun_MarkupCompile.lref
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\MainWindow.baml
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun.g.resources
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun.Properties.Resources.resources
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun.csproj.GenerateResource.cache
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun.exe
+F:\Git\Github\rainmeter\rainmeter-plugin-sdk\C#\CursorSetAutoRun\obj\Release\CursorSetAutoRun.pdb
