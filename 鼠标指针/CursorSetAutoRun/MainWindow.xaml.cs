@@ -105,7 +105,7 @@ namespace CursorSetAutoRun
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (FilePath.Text != "")
+            if (!string.IsNullOrEmpty(FilePath.Text))
             {
                 path = FilePath.Text;
                 if (!path.EndsWith(@"\"))
@@ -235,6 +235,7 @@ Name是设置需要的鼠标光标的名字。设置后，生成这个名字的A
         {
             
             cm.SetPath(this.path);
+
             cm.SetCursor();
             MessageBox.Show(cm.GetPath());
         }
