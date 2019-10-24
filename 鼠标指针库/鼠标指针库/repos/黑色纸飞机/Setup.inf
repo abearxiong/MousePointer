@@ -1,0 +1,53 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.ani, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.ani = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.ani]
+"Arrow.ani"
+"Help.ani"
+"AppStarting.ani"
+"Wait.ani"
+"Cross.ani"
+"IBeam.ani"
+"Handwriting.ani"
+"NO.ani"
+"SizeNS.ani"
+"SizeWE.ani"
+"SizeNWSE.ani"
+"SizeNESW.ani"
+"SizeAll.ani"
+"UpArrow.ani"
+"Hand.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\3D Paper Plane 2"
+SCHEME_NAME     = "3D Paper Plane 2"
+Pointer		= "Arrow.ani"
+Help		= "Help.ani"
+Work		= "AppStarting.ani"
+Busy		= "Wait.ani"
+Cross		= "Cross.ani"
+Text		= "IBeam.ani"
+Hand		= "Handwriting.ani"
+Unavailiable	= "NO.ani"
+Vert		= "SizeNS.ani"
+Horz		= "SizeWE.ani"
+Dgn1		= "SizeNWSE.ani"
+Dgn2		= "SizeNESW.ani"
+Move		= "SizeAll.ani"
+Alternate	= "UpArrow.ani"
+Link		= "Hand.ani"
+
+;Made By it88me

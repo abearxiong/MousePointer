@@ -1,0 +1,54 @@
+; Contributed by LokiTheLiesmith -> https://lokitheliesmith.deviantart.com/
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+; -- Common Information
+
+[Scheme.Cur]
+"Glows Normal.cur"
+"Glows Help.cur"
+"Glows Working.ani"
+"Glows Busy.ani"
+"Glows Precision (1).cur"
+"Glows Text (1).cur"
+"Glows Handwriting (1).cur"
+"Glows Unavailable.cur"
+"Glows Vertical (1).cur"
+"Glows Horizontal (1).cur"
+"Glows Diagonal 1 (1).cur"
+"Glows Diagonal 2 (1).cur"
+"Glows Move (1).cur"
+"Glows Alternate.cur"
+"Glows Link.cur"
+
+[Strings]
+CUR_DIR = "Cursors\Glow\Red"
+SCHEME_NAME = "[÷¬√¿ªØ]Glows (Red)"
+pointer = "Glows Normal.cur"
+help="Glows Help.cur"
+work="Glows Working.ani"
+busy="Glows Busy.ani"
+cross="Glows Precision (1).cur"
+text="Glows Text (1).cur"
+hand="Glows Handwriting (1).cur"
+unavailiable = "Glows Unavailable.cur"
+vert="Glows Vertical (1).cur"
+horz="Glows Horizontal (1).cur"
+dgn1="Glows Diagonal 1 (1).cur"
+dgn2="Glows Diagonal 2 (1).cur"
+move="Glows Move (1).cur"
+alternate="Glows Alternate.cur"
+link="Glows Link.cur"

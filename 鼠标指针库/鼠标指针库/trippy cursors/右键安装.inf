@@ -1,0 +1,55 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+; -- Common Information
+
+[Scheme.Cur]
+3-fast.ani
+3-fast-help.ani
+3-fast-working.ani
+3-fast-busy.ani
+3-fast-text.ani
+3-fast-unavailable.ani
+3-fast-vres.ani
+3-fast-hres.ani
+3-fast-d1res.ani
+3-fast-d2res.ani
+3-fast-move.ani
+3-fast-link.ani
+3-fast-precision.ani
+3-fast-handwriting.ani
+3-fast-alt.ani
+
+[Scheme.Txt]
+meow.txt
+
+[Strings]
+CUR_DIR       = "Cursors\tRiPpY"
+SCHEME_NAME   = "tRiPpY"
+pointer       = "3-fast.ani"
+help          = "3-fast-help.ani"
+work          = "3-fast-working.ani"
+busy          = "3-fast-busy.ani"
+text          = "3-fast-text.ani"
+unavailiable  = "3-fast-unavailable.ani"
+vert          = "3-fast-vres.ani"
+horz          = "3-fast-hres.ani"
+dgn1          = "3-fast-d1res.ani"
+dgn2          = "3-fast-d2res.ani"
+move          = "3-fast-move.ani"
+link          = "3-fast-link.ani"
+cross         = "3-fast-precision.ani"
+hand          = "3-fast-handwriting.ani"
+alternate     = "3-fast-alt.ani"

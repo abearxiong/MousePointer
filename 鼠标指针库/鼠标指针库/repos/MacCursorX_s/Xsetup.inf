@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"AppStarting.ani"
+"Arrow.ani"
+"Cross.cur"
+"Hand.cur"
+"Handwriting.cur"
+"Help.cur"
+"IBeam.cur"
+"NO.ani"
+"SizeAll.cur"
+"SizeNESW.cur"
+"SizeNS.cur"
+"SizeNWSE.cur"
+"SizeWE.cur"
+"UpArrow.cur"
+"Wait.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\MacCursorX_s"
+SCHEME_NAME     = "MacCursorX_s"
+SCHEME_DESCRIPTION = "MacCursorX set by holong"
+pointer		= "Arrow.ani"
+help		= "Help.cur"
+work		= "AppStarting.ani"
+busy		= "Wait.ani"
+cross		= "Cross.cur"
+text		= "IBeam.cur"
+hand		= "Handwriting.cur"
+unavailiable	= "NO.ani"
+vert		= "SizeNS.cur"
+horz		= "SizeWE.cur"
+dgn1		= "SizeNWSE.cur"
+dgn2		= "SizeNESW.cur"
+move		= "SizeAll.cur"
+alternate	= "UpArrow.cur"
+link		= "Hand.cur"
