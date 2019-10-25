@@ -1,0 +1,87 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME2%",,"%10%\%CUR_DIR%\%pointer2%,%10%\%CUR_DIR%\%help2%,%10%\%CUR_DIR%\%work2%,%10%\%CUR_DIR%\%busy2%,%10%\%CUR_DIR%\%Cross2%,%10%\%CUR_DIR%\%Text2%,%10%\%CUR_DIR%\%Hand2%,%10%\%CUR_DIR%\%Unavailiable2%,%10%\%CUR_DIR%\%Vert2%,%10%\%CUR_DIR%\%Horz2%,%10%\%CUR_DIR%\%Dgn12%,%10%\%CUR_DIR%\%Dgn22%,%10%\%CUR_DIR%\%move2%,%10%\%CUR_DIR%\%alternate2%,%10%\%CUR_DIR%\%link2%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+; -- Common Information
+
+[Scheme.Cur]
+"Arrow.ani"
+"Help.ani"
+"AppStarting.ani"
+"Wait.ani"
+"cross.ani"
+"IBeam.ani"
+"Handwriting.ani"
+"NO.ani"
+"SizeNS.ani"
+"SizeWE.ani"
+"SizeNWSE.ani"
+"SizeNESW.ani"
+"SizeAll.ani"
+"UpArrow.ani"
+"Hand.ani"
+"Arrow2.ani"
+"Help2.ani"
+"AppStarting2.ani"
+"Wait2.ani"
+"cross2.ani"
+"IBeam2.ani"
+"Handwriting2.ani"
+"NO2.ani"
+"SizeNS2.ani"
+"SizeWE2.ani"
+"SizeNWSE2.ani"
+"SizeNESW2.ani"
+"SizeAll2.ani"
+"UpArrow2.ani"
+"Hand2.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Zaba"
+SCHEME_NAME     = "[致美化]Zaba"
+
+pointer		= "Arrow.ani"
+help		= "Help.ani"
+work		= "AppStarting.ani"
+busy		= "Wait.ani"
+cross		= "cross.ani"
+text		= "IBeam.ani"
+hand		= "Handwriting.ani"
+unavailiable	= "NO.ani"
+vert		= "SizeNS.ani"
+horz		= "SizeWE.ani"
+dgn1		= "SizeNWSE.ani"
+dgn2		= "SizeNESW.ani"
+move		= "SizeAll.ani"
+alternate		= "UpArrow.ani"
+link		= "Hand.ani"
+
+SCHEME_NAME2    = "[致美化]ZabaBlue"
+
+pointer2		= "Arrow2.ani"
+help2		= "Help2.ani"
+work2		= "AppStarting2.ani"
+busy2		= "Wait2.ani"
+cross2		= "cross2.ani"
+text2		= "IBeam2.ani"
+hand2		= "Handwriting2.ani"
+unavailiable2	= "NO2.ani"
+vert2		= "SizeNS2.ani"
+horz2		= "SizeWE2.ani"
+dgn12		= "SizeNWSE2.ani"
+dgn22		= "SizeNESW2.ani"
+move2		= "SizeAll2.ani"
+alternate2	= "UpArrow2.ani"
+link2		= "Hand2.ani"

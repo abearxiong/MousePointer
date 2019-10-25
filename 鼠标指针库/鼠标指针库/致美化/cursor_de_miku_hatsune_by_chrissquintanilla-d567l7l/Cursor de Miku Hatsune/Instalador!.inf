@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Aero_arrow.cur
+Aero_helpsel.cur
+Aero_working.cur
+Aero_busy.cur
+Aero_select.cur
+Aero_unavail.cur
+Aero_ns.cur
+Aero_ew.cur
+Aero_nwse.cur
+Aero_nesw.cur
+Aero_move.cur
+Aero_link.ani
+Aero_prec.cur
+Aero_pen.cur
+Aero_alt.cur
+
+[Strings]
+CUR_DIR       = "Cursor de Miku Hatsune by ChrissQuintanilla96"
+SCHEME_NAME   = "Cursor de Miku Hatsune by ChrissQuintanilla96"
+pointer       = "Aero_arrow.cur"
+help          = "Aero_helpsel.cur"
+work          = "Aero_working.cur"
+busy          = "Aero_busy.cur"
+text          = "Aero_select.cur"
+unavailiable  = "Aero_unavail.cur"
+vert          = "Aero_ns.cur"
+horz          = "Aero_ew.cur"
+dgn1          = "Aero_nwse.cur"
+dgn2          = "Aero_nesw.cur"
+move          = "Aero_move.cur"
+link          = "Aero_link.ani"
+cross         = "Aero_prec.cur"
+hand          = "Aero_pen.cur"
+alternate     = "Aero_alt.cur"

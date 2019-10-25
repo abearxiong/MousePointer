@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+; -- Common Information
+
+[Scheme.Cur]
+"arrow.cur"
+"help.cur"
+"working.ani"
+"busy.ani"
+"cross.cur"
+"beam.cur"
+"pen.cur"
+"no.cur"
+"size4.cur"
+"size3.cur"
+"size2.cur"
+"size1.cur"
+"move.cur"
+"up.cur"
+"link.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\beeline"
+SCHEME_NAME     = "beeline"
+pointer		= "arrow.cur"
+help		= "help.cur"
+work		= "working.ani"
+busy		= "busy.ani"
+cross		= "cross.cur"
+text		= "beam.cur"
+hand		= "pen.cur"
+unavailiable	= "no.cur"
+vert		= "size4.cur"
+horz		= "size3.cur"
+dgn1		= "size2.cur"
+dgn2		= "size1.cur"
+move	= "move.cur"
+alternate	= "up.cur"
+link		= "link.cur"

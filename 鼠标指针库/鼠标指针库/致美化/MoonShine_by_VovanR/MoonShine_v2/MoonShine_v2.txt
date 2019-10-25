@@ -1,0 +1,14 @@
+Cursors:	MoonShine
+Version:	2.blue
+Author:	Vladimir Rodkin	aka	-=Vovan=-
+Site:	http://vovan.customize.ru/
+	http://vovanr.deviantart.com/
+
+Setup:	Right click "Setup_MoonShine_v2.inf" and click "Install".
+	Go to "Control Panel" "Mouse" and chose scheme "MoonShine_v2"
+	or "MoonShine_v2_Arrowy".
+	Apply.
+	Thanks!
+
+Ole32.dll: I put those cursors in "C:\WINDOWS\Cursors\MoonShine_v2\Ole32"
+Bonus:	"C:\WINDOWS\Cursors\MoonShine_v2\Bonus"

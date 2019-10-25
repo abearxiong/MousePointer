@@ -1,0 +1,52 @@
+;Denial Cursor Pack - Quick Installation
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Alternate.cur
+Busy.ani
+DiagonalResize1.cur
+DiagonalResize2.cur
+Handwrite.cur
+Help.cur
+HorizontalResize.cur
+Link.cur
+Move.cur
+Normal.cur
+Precision.cur
+Text.cur
+Unavailable.cur
+VerticalResize.cur
+Working.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Denial"
+SCHEME_NAME   = "Denial"
+pointer       = "Normal.cur"
+help          = "Help.cur"
+work          = "Working.ani"
+busy          = "Busy.ani"
+text          = "Text.cur"
+unavailiable  = "Unavailable.cur"
+vert          = "VerticalResize.cur"
+horz          = "HorizontalResize.cur"
+dgn1          = "DiagonalResize1.cur"
+dgn2          = "DiagonalResize2.cur"
+move          = "Move.cur"
+link          = "Link.cur"
+cross         = "Precision.cur"
+hand          = "Handwrite.cur"
+alternate     = "Alternate.cur"

@@ -1,0 +1,13 @@
+MoonShine, version 2.3
+Cursors for Windows
+Author: VovanR (Vladimir Rodkin)
+VovanR.deviantART.com
+twitter.com/VovanR
+
+Setup:  Right click "Setup_MoonShine_v2_3.inf" and click "Install".
+        Go to "Control Panel" "Mouse" and chose scheme "MoonShine_v2_3".
+        Apply.
+        Thanks!
+
+Ole32.dll:  "C:\WINDOWS\Cursors\MoonShine_v2_3\Ole32"
+Bonus:      "C:\WINDOWS\Cursors\MoonShine_v2_3\Bonus"

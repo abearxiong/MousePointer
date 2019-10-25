@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"Arrow.cur"
+"Help.ani"
+"AppStarting.ani"
+"Wait.ani"
+"oss.ani"
+"IBeam.ani"
+"Handwriting.ani"
+"NO.ani"
+"SizeNS.ani"
+"SizeWE.ani"
+"SizeNWSE.ani"
+"SizeNESW.ani"
+"SizeAll.ani"
+"UpArrow.cur"
+"Hand.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Apostle"
+SCHEME_NAME     = "Apostle"
+pointer		= "Arrow.cur" 
+help		= "Help.ani" 
+work		= "AppStarting.ani" 
+busy		= "Wait.ani" 
+cross		= "oss.ani" 
+text		= "IBeam.ani" 
+hand		= "Handwriting.ani" 
+unavailiable	= "NO.ani" 
+vert		= "SizeNS.ani" 
+horz		= "SizeWE.ani" 
+dgn1		= "SizeNWSE.ani" 
+dgn2		= "SizeNESW.ani"
+move		= "SizeAll.ani" 
+alternate	= "UpArrow.cur" 
+link		= "Hand.ani" 

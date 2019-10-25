@@ -1,0 +1,93 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"Normal.cur"
+"Help.cur"
+"WorkingBLUE.ani"
+"WorkingRED.ani"
+"WorkingGREEN.ani"
+"BusyBLUE.ani"
+"BusyGREEN.ani"
+"BusyRED.ani"
+"Precision.cur"
+"Text.cur"
+"Handwriting.cur"
+"Unavailable.cur"
+"RZVertical.cur"
+"RZHorizontal.cur"
+"RZDiagonal1.cur"
+"RZDiagonal2.cur"
+"Move.cur"
+"Alternate.cur"
+"Link.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Polar"
+SCHEME_NAME     = "Polar Blue"
+pointer		= "Normal.cur"
+help		= "Help.cur"
+work		= "WorkingBLUE.ani"
+busy		= "BusyBLUE.ani"
+cross		= "Precision.cur"
+text		= "Text.cur"
+hand		= "Handwriting.cur"
+unavailiable	= "Unavailable.cur"
+vert		= "RZVertical.cur"
+horz		= "RZHorizontal.cur"
+dgn1		= "RZDiagonal1.cur"
+dgn2		= "RZDiagonal2.cur"
+move		= "Move.cur"
+alternate	= "Alternate.cur"
+link		= "Link.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Polar"
+SCHEME_NAME     = "Polar Red"
+pointer		= "Normal.cur"
+help		= "Help.cur"
+work		= "WorkingRED.ani"
+busy		= "BusyRED.ani"
+cross		= "Precision.cur"
+text		= "Text.cur"
+hand		= "Handwriting.cur"
+unavailiable	= "Unavailable.cur"
+vert		= "RZVertical.cur"
+horz		= "RZHorizontal.cur"
+dgn1		= "RZDiagonal1.cur"
+dgn2		= "RZDiagonal2.cur"
+move		= "Move.cur"
+alternate	= "Alternate.cur"
+link		= "Link.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Polar"
+SCHEME_NAME     = "Polar Green"
+pointer		= "Normal.cur"
+help		= "Help.cur"
+work		= "WorkingGreen.ani"
+busy		= "BusyGreen.ani"
+cross		= "Precision.cur"
+text		= "Text.cur"
+hand		= "Handwriting.cur"
+unavailiable	= "Unavailable.cur"
+vert		= "RZVertical.cur"
+horz		= "RZHorizontal.cur"
+dgn1		= "RZDiagonal1.cur"
+dgn2		= "RZDiagonal2.cur"
+move		= "Move.cur"
+alternate	= "Alternate.cur"
+link		= "Link.cur"

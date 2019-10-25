@@ -1,0 +1,112 @@
+; MoonShine v.2 Cursors by -=Vovan=-
+; http://vovanr.deviantart.com
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles	= Scheme.Cur, Scheme.Cur.Ole, Scheme.Cur.Bonus
+AddReg	= Scheme.Reg, Scheme.Arrow.Reg
+
+[DestinationDirs]
+Scheme.Cur	= 10,"%CUR_DIR%"
+Scheme.Cur.Ole	= 10,"%OLE_DIR%"
+Scheme.Cur.Bonus	= 10,"%BONUS_DIR%"
+
+
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+
+
+[Scheme.Arrow.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_ARROWY%",,"%10%\%CUR_DIR%\%pointer_arrow%,%10%\%CUR_DIR%\%help_arrow%,%10%\%CUR_DIR%\%work_arrow%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+
+
+[Scheme.Cur]
+MoonShine_v2_Pointer.cur
+MoonShine_v2_Help.ani
+MoonShine_v2_Work.ani
+MoonShine_v2_Busy.ani
+MoonShine_v2_Text.cur
+MoonShine_v2_Unavailable.ani
+MoonShine_v2_Vert.cur
+MoonShine_v2_Horz.cur
+MoonShine_v2_Dgn1.cur
+MoonShine_v2_Dgn2.cur
+MoonShine_v2_Move.cur
+MoonShine_v2_Link.ani
+MoonShine_v2_Cross.cur
+MoonShine_v2_Hand.cur
+MoonShine_v2_Alternate.cur
+
+;Arrowy
+MoonShine_v2_Pointer_Arrowy.cur
+MoonShine_v2_Help_Arrowy.ani
+MoonShine_v2_Work_Arrowy.ani
+
+;About
+MoonShine_v2.txt
+
+
+[Scheme.Cur.Ole]
+;Ole32.dll
+MoonShine_v2_Copy_Ole32.cur
+MoonShine_v2_Copy_p_Ole32.cur
+MoonShine_v2_Move_Ole32.cur
+MoonShine_v2_Move_p_Ole32.cur
+MoonShine_v2_Shortcut_Ole32.cur
+MoonShine_v2_Shortcut_p_Ole32.cur
+MoonShine_v2_Unavailable_Ole32.cur
+
+;Ole32.dll Arrowy
+MoonShine_v2_Copy_Arrowy_Ole32.cur
+MoonShine_v2_Copy_p_Arrowy_Ole32.cur
+MoonShine_v2_Move_Arrowy_Ole32.cur
+MoonShine_v2_Move_p_Arrowy_Ole32.cur
+MoonShine_v2_Shortcut_Arrowy_Ole32.cur
+MoonShine_v2_Shortcut_p_Arrowy_Ole32.cur
+
+
+[Scheme.Cur.Bonus]
+;Bonus
+MoonShine_v2_Work_Bonus.ani
+MoonShine_v2_Busy_Bonus.ani
+MoonShine_v2_Cross_Bonus.cur
+MoonShine_v2_Text_Bonus.ani
+MoonShine_v2_CD_Bonus.cur
+
+;Bonus Arrowy
+MoonShine_v2_Work_Arrowy_Bonus.ani
+MoonShine_v2_CD_Arrowy_Bonus.cur
+
+
+
+[Strings]
+CUR_DIR	= "Cursors\MoonShine_v2"
+OLE_DIR	= "Cursors\MoonShine_v2\Ole32"
+BONUS_DIR = "Cursors\MoonShine_v2\Bonus"
+
+SCHEME_NAME = "MoonShine_v2"
+pointer	= "MoonShine_v2_Pointer.cur"
+help	= "MoonShine_v2_Help.ani"
+work	= "MoonShine_v2_Work.ani"
+busy	= "MoonShine_v2_Busy.ani"
+text	= "MoonShine_v2_Text.cur"
+unavailiable = "MoonShine_v2_Unavailable.ani"
+vert	= "MoonShine_v2_Vert.cur"
+horz	= "MoonShine_v2_Horz.cur"
+dgn1	= "MoonShine_v2_Dgn1.cur"
+dgn2	= "MoonShine_v2_Dgn2.cur"
+move	= "MoonShine_v2_Move.cur"
+link	= "MoonShine_v2_Link.ani"
+cross	= "MoonShine_v2_Cross.cur"
+hand	= "MoonShine_v2_Hand.cur"
+alternate	= "MoonShine_v2_Alternate.cur"
+
+SCHEME_NAME_ARROWY = "MoonShine_v2_Arrowy"
+pointer_arrow	="MoonShine_v2_Pointer_Arrowy.cur"
+help_arrow	="MoonShine_v2_Help_Arrowy.ani"
+work_arrow	="MoonShine_v2_Work_Arrowy.ani"

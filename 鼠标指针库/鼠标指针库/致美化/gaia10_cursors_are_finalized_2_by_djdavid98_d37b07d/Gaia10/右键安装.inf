@@ -1,0 +1,49 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Files
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Files=10,"%CUR_DIR%"
+
+[Scheme.Files]
+Regular2.cur
+Help.cur
+Load.ani
+Busy.ani
+Cross.cur
+Beam.cur
+Regular2.cur
+No.cur
+Vertical.cur
+Horizontal.cur
+Diagonal 1.cur
+Diagonal 2.cur
+Move.cur
+Up.cur
+Link.cur
+
+[Strings]
+cur_dir = "cursors\Gaia 10"
+scheme_name = "[÷¬√¿ªØ] Gaia 10"
+norm = "Regular2.cur"
+help = "Help.cur"
+work = "Load.ani"
+busy = "Busy.ani"
+prec = "Cross.cur"
+text = "Beam.cur"
+hand = "Regular2.cur"
+unav = "No.cur"
+vert = "Vertical.cur"
+hori = "Horizontal.cur"
+dia1 = "Diagonal 1.cur"
+dia2 = "Diagonal 2.cur"
+move = "Move.cur"
+alte = "Up.cur"
+link = "Link.cur"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%norm%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%prec%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unav%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%hori%,%10%\%CUR_DIR%\%dia1%,%10%\%CUR_DIR%\%dia2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alte%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"

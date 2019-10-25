@@ -1,0 +1,53 @@
+;Night Diamond - Ruby Red v2.0 by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[RR] Normal Select v2.0.ani"
+"[RR] Help Select v2.0.ani"
+"[RR] Working In Background v2.0.ani"
+"[RR] Busy v2.0.ani"
+"[RR] Precision Select v2.0.ani"
+"[RR] Text Select v2.0.ani"
+"[RR] Handwriting v2.0.ani"
+"[RR] Unavailable v2.0.ani"
+"[RR] Vertical Resize v2.0.ani"
+"[RR] Horizontal Resize v2.0.ani"
+"[RR] Diagonal Resize 1 v2.0.ani"
+"[RR] Diagonal Resize 2 v2.0.ani"
+"[RR] Move v2.0.ani"
+"[RR] Alternate Select v2.0.ani"
+"[RR] Link Select v2.0.ani"
+
+[Strings]
+CUR_DIR                    = "Cursors\Night Diamond - Ruby Red v2.0"
+SCHEME_NAME        = "Night Diamond - Ruby Red v2.0"
+pointer		= "[RR] Normal Select v2.0.ani"
+help		= "[RR] Help Select v2.0.ani"
+work		= "[RR] Working In Background v2.0.ani"
+busy		= "[RR] Busy v2.0.ani"
+cross		= "[RR] Precision Select v2.0.ani"
+text		= "[RR] Text Select v2.0.ani"
+hand		= "[RR] Handwriting v2.0.ani"
+unavailiable	= "[RR] Unavailable v2.0.ani"
+vert		= "[RR] Vertical Resize v2.0.ani"
+horz		= "[RR] Horizontal Resize v2.0.ani"
+dgn1		= "[RR] Diagonal Resize 1 v2.0.ani"
+dgn2		= "[RR] Diagonal Resize 2 v2.0.ani"
+move		= "[RR] Move v2.0.ani"
+alternate	                  = "[RR] Alternate Select v2.0.ani"
+link		= "[RR] Link Select v2.0.ani"

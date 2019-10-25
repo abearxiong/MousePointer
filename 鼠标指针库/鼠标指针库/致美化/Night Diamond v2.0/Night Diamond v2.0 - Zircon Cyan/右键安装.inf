@@ -1,0 +1,53 @@
+;Night Diamond - Zircon Cyan v2.0 by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[ZC] Normal Select v2.0.ani"
+"[ZC] Help Select v2.0.ani"
+"[ZC] Working In Background v2.0.ani"
+"[ZC] Busy v2.0.ani"
+"[ZC] Precision Select v2.0.ani"
+"[ZC] Text Select v2.0.ani"
+"[ZC] Handwriting v2.0.ani"
+"[ZC] Unavailable v2.0.ani"
+"[ZC] Vertical Resize v2.0.ani"
+"[ZC] Horizontal Resize v2.0.ani"
+"[ZC] Diagonal Resize 1 v2.0.ani"
+"[ZC] Diagonal Resize 2 v2.0.ani"
+"[ZC] Move v2.0.ani"
+"[ZC] Alternate Select v2.0.ani"
+"[ZC] Link Select v2.0.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Night Diamond - Zircon Cyan v2.0"
+SCHEME_NAME     = "Night Diamond - Zircon Cyan v2.0"
+pointer		= "[ZC] Normal Select v2.0.ani"
+help		= "[ZC] Help Select v2.0.ani"
+work		= "[ZC] Working In Background v2.0.ani"
+busy		= "[ZC] Busy v2.0.ani"
+cross		= "[ZC] Precision Select v2.0.ani"
+text		= "[ZC] Text Select v2.0.ani"
+hand		= "[ZC] Handwriting v2.0.ani"
+unavailiable	= "[ZC] Unavailable v2.0.ani"
+vert		= "[ZC] Vertical Resize v2.0.ani"
+horz		= "[ZC] Horizontal Resize v2.0.ani"
+dgn1		= "[ZC] Diagonal Resize 1 v2.0.ani"
+dgn2		= "[ZC] Diagonal Resize 2 v2.0.ani"
+move		= "[ZC] Move v2.0.ani"
+alternate	                  = "[ZC] Alternate Select v2.0.ani"
+link		= "[ZC] Link Select v2.0.ani"

@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+; -- Common Information
+
+[Scheme.Cur]
+"Prism_arrow.cur"
+"Prism_help.cur"
+"Prism_backgrounder.ani"
+"Prism_busy.ani"
+"Prism_cross.cur"
+"Prism_text.cur"
+"Prism_hand.cur"
+"Prism_unavailiable.cur"
+"Prism_portrait.cur"
+"Prism_transverse.cur"
+"Prism_top_left_corner.cur"
+"Prism_lower_right_corner.cur"
+"Prism_move.cur"
+"Prism_alternate.cur"
+"Prism_link.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Prism_Big"
+SCHEME_NAME     = "Prism·Å´ó°æ"
+pointer		= "Prism_arrow.cur"
+help		= "Prism_help.cur"
+work		= "Prism_backgrounder.ani"
+busy		= "Prism_busy.ani"
+cross		= "Prism_cross.cur"
+text		= "Prism_text.cur"
+hand		= "Prism_hand.cur"
+unavailiable	= "Prism_unavailiable.cur"
+vert		= "Prism_portrait.cur"
+horz		= "Prism_transverse.cur"
+dgn1		= "Prism_top_left_corner.cur"
+dgn2		= "Prism_lower_right_corner.cur"
+move		= "Prism_move.cur"
+alternate		= "Prism_alternate.cur"
+link		= "Prism_link.ani"

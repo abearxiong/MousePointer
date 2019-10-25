@@ -1,0 +1,56 @@
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+Scheme_Preview = [noir].bmp
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%Normal%,%10%\%CUR_DIR%\%Help%,%10%\%CUR_DIR%\%Work%,%10%\%CUR_DIR%\%Busy%,%10%\%CUR_DIR%\%Precision%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%Move%,%10%\%CUR_DIR%\%Alternate%,%10%\%CUR_DIR%\%Link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Noir_01N.cur
+Noir_02H.cur
+Noir_03W.ani
+Noir_04B.cur
+Noir_05P.cur
+Noir_06T.cur
+Noir_07H.cur
+Noir_08U.cur
+Noir_09R.cur
+Noir_10R.cur
+Noir_11R.cur
+Noir_12R.cur
+Noir_13M.cur
+Noir_14A.cur
+Noir_15L.ani
+
+[Scheme.Txt]
+[noir].txt
+
+[Strings]
+CUR_DIR		= "Cursors\[noir]"
+SCHEME_NAME	= "[noir]"
+Normal		= "Noir_01N.cur"
+Help		= "Noir_02H.cur"
+Work		= "Noir_03W.ani"
+Busy		= "Noir_04B.cur"
+Precision	= "Noir_05P.cur"
+Text		= "Noir_06T.cur"
+Hand		= "Noir_07H.cur"
+Unavailiable    = "Noir_08U.cur"
+Vert		= "Noir_09R.cur"
+Horz		= "Noir_10R.cur"
+Dgn1		= "Noir_11R.cur"
+Dgn2		= "Noir_12R.cur"
+Move		= "Noir_13M.cur"
+Alternate	= "Noir_14A.cur"
+Link		= "Noir_15L.ani"

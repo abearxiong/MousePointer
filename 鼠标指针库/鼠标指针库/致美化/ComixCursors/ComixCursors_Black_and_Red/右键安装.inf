@@ -1,0 +1,57 @@
+;Edited and optimized by Zack Leonhart - http://zackleonharts.deviantart.com/
+;ComixCursors 	Black & Red - Slim made from the work original 'ComixCursors' by Jens Luetkens [jlue] - http://bit.ly/l4Ym8E
+;Licensed by GPL License - http://bit.ly/lfR3lg
+;
+;Enjoy XP
+
+[Version]
+signature="$CHICAGO$"   ; Identifica el archivo, como un tipo de arhivo .INI - Identifies the file as an INF file -
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt  ; Entradas al Registro - Entries in register 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%EntryIn%"	;Destino de la entrada - Path entry
+Scheme.Txt = 10,"%EntryIn%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SchemaName%",,"%10%\%EntryIn%\%Arrow%,%10%\%EntryIn%\%Help%,%10%\%EntryIn%\%AppStarting%,%10%\%EntryIn%\%Wait%,%10%\%EntryIn%\%Crosshair%,%10%\%EntryIn%\%IBeam%,%10%\%EntryIn%\%NWPen%,%10%\%EntryIn%\%No%,%10%\%EntryIn%\%SizeNS%,%10%\%EntryIn%\%SizeWE%,%10%\%EntryIn%\%SizeNWSE%,%10%\%EntryIn%\%SizeNESW%,%10%\%EntryIn%\%SizeAll%,%10%\%EntryIn%\%UpArrow%,%10%\%EntryIn%\%Hand%"
+
+; -- Datos e información - Data & Information 
+
+[Scheme.Cur]
+"AppStarting.ani"
+"Arrow.cur"
+"Crosshair.cur"
+"Hand.cur"
+"Help.ani"
+"IBeam.cur"
+"No.cur"
+"NWPen.cur"
+"SizeAll.cur"
+"SizeNESW.cur"
+"SizeNS.cur"
+"SizeNWSE.cur"
+"SizeWE.cur"
+"UpArrow.cur"
+"Wait.ani"
+
+[Strings]
+EntryIn     	= "Cursors\ComixCursors Black and Red"   	;Dirección en el registro
+SchemaName     	= "ComixCursors Black and Red"			;Nombre del esquema - Scheme Name
+AppStarting	= "AppStarting.ani"		 		;Punteros correspondientes para el registro - corresponding pointers to register
+Arrow		= "Arrow.cur"
+Crosshair	= "Crosshair.cur"
+Hand		= "Hand.cur"
+Help		= "Help.ani"
+IBeam		= "IBeam.cur"
+No		= "No.cur"
+NWPen		= "NWPen.cur"
+SizeAll		= "SizeAll.cur"
+SizeNESW	= "SizeNESW.cur"
+SizeNS		= "SizeNS.cur"
+SizeNWSE	= "SizeNWSE.cur"
+SizeWE		= "SizeWE.cur"
+UpArrow		= "UpArrow.cur"
+Wait		= "Wait.ani"

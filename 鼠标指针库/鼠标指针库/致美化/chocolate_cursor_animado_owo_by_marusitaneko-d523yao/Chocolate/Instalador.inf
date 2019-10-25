@@ -1,0 +1,52 @@
+Creado por MarusitaNeko
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+normal.ani
+ayuda.ani
+trabajando.ani
+ocupado.ani
+texto.ani
+no disponible.ani
+vertical.ani
+horizontal.ani
+diagonal1.ani
+diagonal2.ani
+Mover.ani
+link.ani
+precision.ani
+Escritura a Mano.ani
+Alternativo.ani
+
+[Strings]
+CUR_DIR       = "Cursors\Chocolate"
+SCHEME_NAME   = "Chocolate"
+pointer       = "normal.ani"
+help          = "ayuda.ani"
+work          = "trabajando.ani"
+busy          = "ocupado.ani"
+text          = "texto.ani"
+unavailiable  = "no disponible.ani"
+vert          = "vertical.ani"
+horz          = "horizontal.ani"
+dgn1          = "diagonal1.ani"
+dgn2          = "diagonal2.ani"
+move          = "Mover.ani"
+link          = "link.ani"
+cross         = "precision.ani"
+hand          = "escritura a mano.ani"
+alternate     = "alternativo.ani"

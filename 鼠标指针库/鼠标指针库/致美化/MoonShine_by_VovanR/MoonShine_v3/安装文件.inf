@@ -1,0 +1,86 @@
+; MoonShine v.3 Cursors by -=Vovan=-
+; http://vovanr.deviantart.com
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles	= Scheme.Cur, Scheme.Cur.Ole, Scheme.Cur.Bonus
+AddReg	= Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur	= 10,"%CUR_DIR%"
+Scheme.Cur.Ole	= 10,"%OLE_DIR%"
+Scheme.Cur.Bonus	= 10,"%BONUS_DIR%"
+
+
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+
+
+[Scheme.Cur]
+MoonShine_v3_Pointer.cur
+MoonShine_v3_Help.ani
+MoonShine_v3_Work.ani
+MoonShine_v3_Busy.ani
+MoonShine_v3_Text.cur
+MoonShine_v3_Unavailable.ani
+MoonShine_v3_Vert.cur
+MoonShine_v3_Horz.cur
+MoonShine_v3_Dgn1.cur
+MoonShine_v3_Dgn2.cur
+MoonShine_v3_Move.cur
+MoonShine_v3_Link.ani
+MoonShine_v3_Cross.cur
+MoonShine_v3_Hand.cur
+MoonShine_v3_Alternate.cur
+
+;About
+MoonShine_v3.txt
+
+
+[Scheme.Cur.Ole]
+;Ole32.dll
+MoonShine_v3_Copy_Ole32.cur
+MoonShine_v3_Copy_p_Ole32.cur
+MoonShine_v3_Move_Ole32.cur
+MoonShine_v3_Move_p_Ole32.cur
+MoonShine_v3_Shortcut_Ole32.cur
+MoonShine_v3_Shortcut_p_Ole32.cur
+MoonShine_v3_Unavailable_Ole32.cur
+
+
+[Scheme.Cur.Bonus]
+;Bonus
+MoonShine_v3_Work_Bonus.ani
+MoonShine_v3_Busy_Bonus.ani
+MoonShine_v3_Cross_Bonus.cur
+MoonShine_v3_Text_Bonus.ani
+MoonShine_v3_CD_Bonus.cur
+MoonShine_v3_Hand_Bonus.cur
+
+
+
+[Strings]
+CUR_DIR	= "Cursors\MoonShine_v3"
+OLE_DIR	= "Cursors\MoonShine_v3\Ole32"
+BONUS_DIR = "Cursors\MoonShine_v3\Bonus"
+
+SCHEME_NAME = "MoonShine_v3"
+pointer	= "MoonShine_v3_Pointer.cur"
+help	= "MoonShine_v3_Help.ani"
+work	= "MoonShine_v3_Work.ani"
+busy	= "MoonShine_v3_Busy.ani"
+text	= "MoonShine_v3_Text.cur"
+unavailiable = "MoonShine_v3_Unavailable.ani"
+vert	= "MoonShine_v3_Vert.cur"
+horz	= "MoonShine_v3_Horz.cur"
+dgn1	= "MoonShine_v3_Dgn1.cur"
+dgn2	= "MoonShine_v3_Dgn2.cur"
+move	= "MoonShine_v3_Move.cur"
+link	= "MoonShine_v3_Link.ani"
+cross	= "MoonShine_v3_Cross.cur"
+hand	= "MoonShine_v3_Hand.cur"
+alternate	= "MoonShine_v3_Alternate.cur"

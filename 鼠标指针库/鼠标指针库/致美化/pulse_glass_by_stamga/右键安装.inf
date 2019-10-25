@@ -1,0 +1,55 @@
+;Pulse Glass
+;
+;Beautiful pulsing glass cursors created by Stamga.
+;
+;[/Stamga] stamga.deviantart.com
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+Pulse_Glass.ani
+Pulse_Glass_busy.ani
+Pulse Precision.cur
+Pulse Resize Horizontal.cur
+Pulse Glass Help.cur
+Pulse_Glass_Link.ani
+Pulse Move.cur
+Pulse Resize Diagonal-Right.cur
+Pulse Resize Vertical.cur
+Pulse Resize Diagonal-Left.cur
+Pulse Handwriting.cur
+Pulse Glass Text.cur
+Pulse Unavailable.cur
+Pulse Alternate.cur
+Pulse_Glass_Working.ani
+
+[Strings]
+CUR_DIR     = "Cursors\Pulse Glass"
+SCHEME_NAME = "Pulse Glass"
+alternate   = "Pulse Alternate.cur"
+busy    = "Pulse_Glass_busy.ani"
+cross   = "Pulse Precision.cur"
+dgn1    = "Pulse Resize Diagonal-Left.cur"
+dgn2    = "Pulse Resize Diagonal-Right.cur"
+hand    = "Pulse Handwriting.cur"
+help    = "Pulse Glass Help.cur"
+horz    = "Pulse Resize Horizontal.cur"
+link    = "Pulse_Glass_Link.ani"
+move    = "Pulse Move.cur"
+pointer = "Pulse_Glass.ani"
+text    = "Pulse Glass Text.cur"
+unavailiable = "Pulse Unavailable.cur"
+vert    = "Pulse Resize Vertical.cur"
+work    = "Pulse_Glass_Working.ani"

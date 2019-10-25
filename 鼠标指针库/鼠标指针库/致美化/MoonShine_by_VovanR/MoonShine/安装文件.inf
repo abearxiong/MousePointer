@@ -1,0 +1,73 @@
+; MoonShine Cursors by -=Vovan=-
+; http://vovanr.deviantart.com
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles	= Scheme.Cur, Scheme.Txt
+AddReg	= Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+MoonShine_Pointer.cur
+MoonShine_Help.ani
+MoonShine_Work.ani
+MoonShine_Busy.ani
+MoonShine_Text.cur
+MoonShine_Unavailable.ani
+MoonShine_Vert.cur
+MoonShine_Horz.cur
+MoonShine_Dgn1.cur
+MoonShine_Dgn2.cur
+MoonShine_Move.cur
+MoonShine_Link.ani
+MoonShine_Cross.cur
+MoonShine_Hand.cur
+MoonShine_Alternate.cur
+
+;Bonus
+MoonShine_Work_Bonus.ani
+MoonShine_Busy_Bonus.ani
+MoonShine_Cross_Bonus.cur
+MoonShine_Text_Bonus.ani
+MoonShine_CD_Bonus.cur
+
+;Ole32.dll
+MoonShine_Copy_Ole32.cur
+MoonShine_Copy_p_Ole32.cur
+MoonShine_Move_Ole32.cur
+MoonShine_Move_p_Ole32.cur
+MoonShine_Shortcut_Ole32.cur
+MoonShine_Shortcut_p_Ole32.cur
+MoonShine_Unavailable_Ole32.cur
+
+;About
+MoonShine.txt
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR = "Cursors\MoonShine"
+SCHEME_NAME = "MoonShine"
+pointer	= "MoonShine_Pointer.cur"
+help	= "MoonShine_Help.ani"
+work	= "MoonShine_Work.ani"
+busy	= "MoonShine_Busy.ani"
+text	= "MoonShine_Text.cur"
+unavailiable = "MoonShine_Unavailable.ani"
+vert	= "MoonShine_Vert.cur"
+horz	= "MoonShine_Horz.cur"
+dgn1	= "MoonShine_Dgn1.cur"
+dgn2	= "MoonShine_Dgn2.cur"
+move	= "MoonShine_Move.cur"
+link	= "MoonShine_Link.ani"
+cross	= "MoonShine_Cross.cur"
+hand	= "MoonShine_Hand.cur"
+alternate	= "MoonShine_Alternate.cur"

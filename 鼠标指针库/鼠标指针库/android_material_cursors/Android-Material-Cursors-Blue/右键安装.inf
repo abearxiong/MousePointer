@@ -1,0 +1,51 @@
+[Version]
+signature="$Chicago$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+normal-select-blue.cur
+help.cur
+working-in-background.ani
+cursor-spinner.ani
+txt-selection-blue.cur
+unavailable-blue.cur
+vertical-resize-blue.cur
+horizontal-resize-blue.cur
+diagonal-resize-frontslash-blue.cur
+diagonal-resize-backslash-blue.cur
+move-blue.cur
+link-select.cur
+precision-select.cur
+handwriting.cur
+alternate-select-blue.cur
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Android-Material-Cursors"
+SCHEME_NAME   = "Android Material Cursors"
+pointer       = "normal-select-blue.cur"
+help          = "help.cur"
+work          = "working-in-background.ani"
+busy          = "cursor-spinner.ani"
+text          = "txt-selection-blue.cur"
+unavailiable  = "unavailable-blue.cur"
+vert          = "vertical-resize-blue.cur"
+horz          = "horizontal-resize-blue.cur"
+dgn1          = "diagonal-resize-backslash-blue.cur"
+dgn2          = "diagonal-resize-frontslash-blue.cur"
+move          = "move-blue.cur"
+link          = "link-select.cur"
+cross         = "precision-select.cur"
+hand          = "handwriting.cur"
+alternate     = "alternate-select-blue.cur"

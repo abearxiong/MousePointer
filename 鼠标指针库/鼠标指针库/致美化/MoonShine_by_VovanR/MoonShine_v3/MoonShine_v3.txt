@@ -1,0 +1,13 @@
+Cursors:	MoonShine
+Version:	3.dark_blue
+Author:	Vladimir Rodkin	aka	-=Vovan=-
+Site:	http://vovan.customize.ru/
+	http://vovanr.deviantart.com/
+
+Setup:	Right click "Setup_MoonShine_v3.inf" and click "Install".
+	Go to "Control Panel" "Mouse" and chose scheme "MoonShine_v3".
+	Apply.
+	Thanks!
+
+Ole32.dll: I put those cursors in "C:\WINDOWS\Cursors\MoonShine_v3\Ole32"
+Bonus:	"C:\WINDOWS\Cursors\MoonShine_v3\Bonus"

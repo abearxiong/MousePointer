@@ -1,0 +1,52 @@
+Creado por Dafne Neka
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+normal.cur
+ayuda.cur
+trabajando en segundo plano.cur
+Ocupado.cur
+texto.cur
+No Disponible.cur
+vertical1.cur
+horizontal.cur
+diagonal resize 1.cur
+diagonal resize 2.cur
+Movee2.cur
+link.ani
+precision.cur
+Escritura a Mano.cur
+Alternative2.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Miku Hatsune"
+SCHEME_NAME   = "Miku Hatsune"
+pointer       = "normal.cur"
+help          = "ayuda.cur"
+work          = "trabajando en segundo plano.cur"
+busy          = "Ocupado.cur"
+text          = "texto.cur"
+unavailiable  = "No Disponible.cur"
+vert          = "vertical1.cur"
+horz          = "horizontal.cur"
+dgn1          = "diagonal resize 1.cur"
+dgn2          = "diagonal resize 2.cur"
+move          = "Movee2.cur"
+link          = "link.ani"
+cross         = "precision.cur"
+hand          = "Escritura a Mano.cur"
+alternate     = "Alternative2.cur"

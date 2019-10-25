@@ -1,0 +1,53 @@
+;Night Diamond - Topaz Yellow v2.0 by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[TY] Normal Select v2.0.ani"
+"[TY] Help Select v2.0.ani"
+"[TY] Working In Background v2.0.ani"
+"[TY] Busy v2.0.ani"
+"[TY] Precision Select v2.0.ani"
+"[TY] Text Select v2.0.ani"
+"[TY] Handwriting v2.0.ani"
+"[TY] Unavailable v2.0.ani"
+"[TY] Vertical Resize v2.0.ani"
+"[TY] Horizontal Resize v2.0.ani"
+"[TY] Diagonal Resize 1 v2.0.ani"
+"[TY] Diagonal Resize 2 v2.0.ani"
+"[TY] Move v2.0.ani"
+"[TY] Alternate Select v2.0.ani"
+"[TY] Link Select v2.0.ani"
+
+[Strings]
+CUR_DIR                    = "Cursors\Night Diamond - Topaz Yellow v2.0"
+SCHEME_NAME        = "Night Diamond - Topaz Yellow v2.0"
+pointer		= "[TY] Normal Select v2.0.ani"
+help		= "[TY] Help Select v2.0.ani"
+work		= "[TY] Working In Background v2.0.ani"
+busy		= "[TY] Busy v2.0.ani"
+cross		= "[TY] Precision Select v2.0.ani"
+text		= "[TY] Text Select v2.0.ani"
+hand		= "[TY] Handwriting v2.0.ani"
+unavailiable	= "[TY] Unavailable v2.0.ani"
+vert		= "[TY] Vertical Resize v2.0.ani"
+horz		= "[TY] Horizontal Resize v2.0.ani"
+dgn1		= "[TY] Diagonal Resize 1 v2.0.ani"
+dgn2		= "[TY] Diagonal Resize 2 v2.0.ani"
+move		= "[TY] Move v2.0.ani"
+alternate	                  = "[TY] Alternate Select v2.0.ani"
+link		= "[TY] Link Select v2.0.ani"

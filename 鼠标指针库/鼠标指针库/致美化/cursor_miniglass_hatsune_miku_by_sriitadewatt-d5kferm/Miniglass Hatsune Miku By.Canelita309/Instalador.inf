@@ -1,0 +1,52 @@
+Creado por MelEdition2000
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Puntero.cur
+Ayuda.cur
+Cargando.ani
+Ocupado.ani
+Texto.cur
+No Valido.cur
+Aero_ns.cur
+Aero_ew.cur
+Aero_nwse.cur
+Aero_nesw.cur
+Mover.cur
+link.cur
+cross.cur
+Lapiz.cur
+Alternativo.cur
+
+[Strings]
+CUR_DIR       = "Miniglass Hatsune Miku By.Canelita309"
+SCHEME_NAME   = "Miniglass Hatsune Miku By.Canelita309"
+pointer       = "Puntero.cur"
+help          = "Ayuda.cur"
+work          = "Cargando.ani"
+busy          = "Ocupado.ani"
+text          = "Texto.cur"
+unavailiable  = "No Valido.cur"
+vert          = "Aero_ns.cur"
+horz          = "Aero_ew.cur"
+dgn1          = "Aero_nwse.cur"
+dgn2          = "Aero_nesw.cur"
+move          = "Mover.cur"
+link          = "link.cur"
+cross         = "Cross.cur"
+hand          = "Lapiz.cur"
+alternate     = "Alternativo.cur"

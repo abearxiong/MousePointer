@@ -1,0 +1,51 @@
+[Version]
+signature="$Chicago$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+normal-select-teal.cur
+help.cur
+working-in-background.ani
+cursor-spinner.ani
+txt-selection-teal.cur
+unavailable-teal.cur
+vertical-resize.cur
+horizontal-resize.cur
+diagonal-resize-frontslash.cur
+diagonal-resize-backslash.cur
+move.cur
+link-select.cur
+precision-select.cur
+handwriting.cur
+alternate-select-teal.cur
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Android-Material-Cursors-Teal"
+SCHEME_NAME   = "Android Material Cursors (Teal)"
+pointer       = "normal-select-teal.cur"
+help          = "help.cur"
+work          = "working-in-background.ani"
+busy          = "cursor-spinner.ani"
+text          = "txt-selection-teal.cur"
+unavailiable  = "unavailable-teal.cur"
+vert          = "vertical-resize.cur"
+horz          = "horizontal-resize.cur"
+dgn1          = "diagonal-resize-backslash.cur"
+dgn2          = "diagonal-resize-frontslash.cur"
+move          = "move.cur"
+link          = "link-select.cur"
+cross         = "precision-select.cur"
+hand          = "handwriting.cur"
+alternate     = "alternate-select-teal.cur"

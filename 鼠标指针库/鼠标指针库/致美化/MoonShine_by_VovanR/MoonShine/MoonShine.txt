@@ -1,0 +1,10 @@
+Cursors:	MoonShine
+Version:	1.blue
+Author:	Vladimir Rodkin	aka	-=Vovan=-
+Site:	http://vovan.customize.ru/
+	http://vovanr.deviantart.com/
+
+Setup:	Right click "Setup_MoonShine.inf" and click "Install".
+	Go to "Control Panel" "Mouse" and chose scheme "MoonShine".
+	Apply.
+	Thanks!

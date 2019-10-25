@@ -1,0 +1,73 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=%Author%
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Arrow%,%10%\%CUR_DIR%\%Help%,%10%\%CUR_DIR%\%AppStarting%,%10%\%CUR_DIR%\%Busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%NWPen%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%Move%,%10%\%CUR_DIR%\%Alternate%,%10%\%CUR_DIR%\%Hand%"
+
+
+HKCU,"Control Panel\Cursors","",%REG_EXPAND_SZ%,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors","Arrow",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Arrow%"
+HKCU,"Control Panel\Cursors","Help",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Help%"
+HKCU,"Control Panel\Cursors","AppStarting",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%AppStarting%"
+HKCU,"Control Panel\Cursors","Wait",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Busy%"
+HKCU,"Control Panel\Cursors","Crosshair",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Cross%"
+HKCU,"Control Panel\Cursors","IBeam",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Text%"
+HKCU,"Control Panel\Cursors","NWPen",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Hand%"
+HKCU,"Control Panel\Cursors","No",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Unavailiable%"
+HKCU,"Control Panel\Cursors","SizeNS",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Vert%"
+HKCU,"Control Panel\Cursors","SizeWE",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Horz%"
+HKCU,"Control Panel\Cursors","SizeNWSE",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Dgn1%"
+HKCU,"Control Panel\Cursors","SizeNESW",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Dgn2%"
+HKCU,"Control Panel\Cursors","SizeAll",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Move%"
+HKCU,"Control Panel\Cursors","UpArrow",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Alternate%"
+HKCU,"Control Panel\Cursors","Hand",%REG_EXPAND_SZ%,"%10%\%CUR_DIR%\%Hand%"
+HKCU,"Control Panel\Cursors","Scheme Source",%REG_DWORD%,1
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce"," Û±Í÷∏’Î…Ë÷√",,"Control main.cpl @0,1"
+
+[Scheme.Cur]
+"Arrow.cur"       
+"Help.cur"        
+"AppStarting.ani"
+"Wait.ani"        
+"Cross.cur"       
+"IBeam.cur"       
+"Pen.cur"        
+"Unavailiable.cur"
+"SizeNS.cur"      
+"SizeWE.cur"      
+"SizeNWSE.cur"    
+"SizeNESW.cur"    
+"SizeAll.cur"     
+"Alternate.cur"   
+"Link.cur"        
+
+[Strings]
+Author		="Slore"
+CUR_DIR         = "Cursors\TearDrop"
+SCHEME_NAME     = "TearDrop"
+Arrow		= "Arrow.cur"
+Help		= "Help.cur"
+AppStarting	= "AppStarting.ani"
+Busy		= "Wait.ani"
+Cross		= "Cross.cur"
+Text		= "IBeam.cur"
+NWPen		= "Pen.cur"
+Unavailiable	= "Unavailiable.cur"
+Vert		= "SizeNS.cur"
+Horz		= "SizeWE.cur"
+Dgn1		= "SizeNWSE.cur"
+Dgn2		= "SizeNESW.cur"
+Move		= "SizeAll.cur"
+Alternate	= "Alternate.cur"
+Hand		= "Link.cur"
+
+REG_DWORD	=0x00010001
+REG_EXPAND_SZ	=0x00020000

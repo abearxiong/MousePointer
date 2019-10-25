@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles=Scheme.Cur,
+AddReg=Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur=10,"%CUR_DIR%"
+Scheme.Txt=10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+; -- Common Information
+
+[Scheme.Cur]
+"default.cur"
+"help.cur"
+"progress.ani"
+"wait.ani"
+"crosshair.cur"
+"text.cur"
+"draft.cur"
+"no-drop.cur"
+"size-ver.cur"
+"size-hor.cur"
+"size-fdiag.cur"
+"size-bdiag.cur"
+"all-scroll.cur"
+"center-ptr.cur"
+"pointer.cur"
+
+[Strings]
+CUR_DIR      = "Cursors\Breeze Snow"
+SCHEME_NAME  = "Breeze Snow"
+pointer		 = "default.cur"
+help		 = "help.cur"
+work		 = "progress.ani"
+busy		 = "wait.ani"
+cross		 = "crosshair.cur"
+text		 = "text.cur"
+hand		 = "draft.cur"
+unavailiable = "no-drop.cur"
+vert		 = "size-ver.cur"
+horz		 = "size-hor.cur"
+dgn1		 = "size-fdiag.cur"
+dgn2		 = "size-bdiag.cur"
+move		 = "all-scroll.cur"
+alternate	 = "center-ptr.cur"
+link		 = "pointer.cur"

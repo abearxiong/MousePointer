@@ -1,0 +1,53 @@
+;Night Diamond - Opal White v2.0 by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[OW] Normal Select v2.0.ani"
+"[OW] Help Select v2.0.ani"
+"[OW] Working In Background v2.0.ani"
+"[OW] Busy v2.0.ani"
+"[OW] Precision Select v2.0.ani"
+"[OW] Text Select v2.0.ani"
+"[OW] Handwriting v2.0.ani"
+"[OW] Unavailable v2.0.ani"
+"[OW] Vertical Resize v2.0.ani"
+"[OW] Horizontal Resize v2.0.ani"
+"[OW] Diagonal Resize 1 v2.0.ani"
+"[OW] Diagonal Resize 2 v2.0.ani"
+"[OW] Move v2.0.ani"
+"[OW] Alternate Select v2.0.ani"
+"[OW] Link Select v2.0.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Night Diamond - Opal White v2.0"
+SCHEME_NAME     = "Night Diamond - Opal White v2.0"
+pointer		= "[OW] Normal Select v2.0.ani"
+help		= "[OW] Help Select v2.0.ani"
+work		= "[OW] Working In Background v2.0.ani"
+busy		= "[OW] Busy v2.0.ani"
+cross		= "[OW] Precision Select v2.0.ani"
+text		= "[OW] Text Select v2.0.ani"
+hand		= "[OW] Handwriting v2.0.ani"
+unavailiable	= "[OW] Unavailable v2.0.ani"
+vert		= "[OW] Vertical Resize v2.0.ani"
+horz		= "[OW] Horizontal Resize v2.0.ani"
+dgn1		= "[OW] Diagonal Resize 1 v2.0.ani"
+dgn2		= "[OW] Diagonal Resize 2 v2.0.ani"
+move		= "[OW] Move v2.0.ani"
+alternate	                  = "[OW] Alternate Select v2.0.ani"
+link		= "[OW] Link Select v2.0.ani"

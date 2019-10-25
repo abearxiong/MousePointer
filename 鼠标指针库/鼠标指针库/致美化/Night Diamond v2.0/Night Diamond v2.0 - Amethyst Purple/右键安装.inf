@@ -1,0 +1,53 @@
+;Night Diamond - Amethyst Purple v2.0 by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[AP] Normal Select v2.0.ani"
+"[AP] Help Select v2.0.ani"
+"[AP] Working In Background v2.0.ani"
+"[AP] Busy v2.0.ani"
+"[AP] Precision Select v2.0.ani"
+"[AP] Text Select v2.0.ani"
+"[AP] Handwriting v2.0.ani"
+"[AP] Unavailable v2.0.ani"
+"[AP] Vertical Resize v2.0.ani"
+"[AP] Horizontal Resize v2.0.ani"
+"[AP] Diagonal Resize 1 v2.0.ani"
+"[AP] Diagonal Resize 2 v2.0.ani"
+"[AP] Move v2.0.ani"
+"[AP] Alternate Select v2.0.ani"
+"[AP] Link Select v2.0.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Night Diamond - Amethyst Purple v2.0"
+SCHEME_NAME     = "Night Diamond - Amethyst Purple v2.0"
+pointer		= "[AP] Normal Select v2.0.ani"
+help		= "[AP] Help Select v2.0.ani"
+work		= "[AP] Working In Background v2.0.ani"
+busy		= "[AP] Busy v2.0.ani"
+cross		= "[AP] Precision Select v2.0.ani"
+text		= "[AP] Text Select v2.0.ani"
+hand		= "[AP] Handwriting v2.0.ani"
+unavailiable	= "[AP] Unavailable v2.0.ani"
+vert		= "[AP] Vertical Resize v2.0.ani"
+horz		= "[AP] Horizontal Resize v2.0.ani"
+dgn1		= "[AP] Diagonal Resize 1 v2.0.ani"
+dgn2		= "[AP] Diagonal Resize 2 v2.0.ani"
+move		= "[AP] Move v2.0.ani"
+alternate	                  = "[AP] Alternate Select v2.0.ani"
+link		= "[AP] Link Select v2.0.ani"
