@@ -47,8 +47,8 @@ Pin.cur
 Person.cur
 
 [Strings]
-CUR_DIR         	= "Cursors\trippy "
-SCHEME_NAME     	= "trippy "
+CUR_DIR         	= "Cursors\trippy"
+SCHEME_NAME     	= "trippy"
 pointer		= "Arrow.ani"
 help		= "Help.ani"
 work		= "Appstarting.ani"

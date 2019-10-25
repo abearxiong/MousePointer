@@ -47,8 +47,8 @@ Pin.cur
 Person.cur
 
 [Strings]
-CUR_DIR         	= "Cursors\Jommans"
-SCHEME_NAME     	= "Jommans"
+CUR_DIR         	= "Cursors\Jommans falchion"
+SCHEME_NAME     	= "Jommans falchion"
 pointer		= "Arrow.cur"
 help		= "Help.cur"
 work		= "Appstarting.cur"
