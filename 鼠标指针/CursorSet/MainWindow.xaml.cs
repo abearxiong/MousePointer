@@ -37,10 +37,10 @@ namespace CursorSet
         public MainWindow()
         {
             InitializeComponent();
-            InitialTray();
-            SetPostion();
-            ReadConfig();
-            ListDirectory();
+            InitialTray(); // 托盘初始化
+            SetPostion(); // 设置位置
+            ReadConfig(); //读取配置
+            ListDirectory(); //列出文件
         }
         public void SetPostion()
         {
@@ -75,13 +75,14 @@ namespace CursorSet
             }
             if (minStatue)
             {
-                this.Close();
+                this.Close();   
             }
         }
         public void SetConfig(string key, string value)
         {
             Configuration cfa = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            cfa.AppSettings.Settings[key].Value = value;
+            GetConfig(key);
+            cfa.AppSettings.Settings[key].Value = value + "";
             cfa.Save();
         }
         public string GetConfig(string key)
@@ -244,20 +245,20 @@ namespace CursorSet
             System.Environment.Exit(0);
         }
 
-        private void myAutoRun_Checked(object sender, RoutedEventArgs e)
+        private void MyAutoRun_Checked(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show("显示");
             SetConfig("autoRun", "isChecked");
             SetAutoRun.SetMeStart(true);
         }
 
-        private void myAutoRun_Unchecked(object sender, RoutedEventArgs e)
+        private void MyAutoRun_Unchecked(object sender, RoutedEventArgs e)
         {
             SetConfig("autoRun", "no");
             SetAutoRun.SetMeStart(false);
         }
 
-        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ChooseCursor = comboBox.SelectedItem.ToString();
             var absoultePath = System.Windows.Forms.Application.StartupPath;
@@ -269,7 +270,27 @@ namespace CursorSet
             }
             else
             {
-                cursorImage.Source = new BitmapImage(new Uri(absoultePath + @".\desc.png", UriKind.RelativeOrAbsolute));
+                if(File.Exists(absoultePath+ @".\desc.png")){
+                    cursorImage.Source = new BitmapImage(new Uri(absoultePath + @".\desc.png", UriKind.RelativeOrAbsolute));
+                }
+                else
+                {
+                    var errorFilePath = absoultePath + @".\log.text";
+                    FileStream fs;
+                    if (!File.Exists(errorFilePath))
+                    {
+                        fs = File.Create(errorFilePath);
+                    }
+                    else
+                    {
+                    fs = new FileStream(errorFilePath, FileMode.Open, FileAccess.ReadWrite);
+                    }
+                    StreamWriter sw = new StreamWriter(fs);
+                    var err = "desc的图片和cursor的图片都没有";
+                    sw.Write(err);
+                    Console.WriteLine(err);
+                    sw.Close();
+                }
             }
         }
     }
