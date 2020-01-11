@@ -1,0 +1,9 @@
+F:\GitHub\MousePointer\鼠标指针\Cursor\bin\Debug\Cursor.exe.config
+F:\GitHub\MousePointer\鼠标指针\Cursor\bin\Debug\Cursor.exe
+F:\GitHub\MousePointer\鼠标指针\Cursor\bin\Debug\Cursor.pdb
+F:\GitHub\MousePointer\鼠标指针\Cursor\obj\Debug\Cursor.exe
+F:\GitHub\MousePointer\鼠标指针\Cursor\obj\Debug\Cursor.pdb
+F:\GitHub\MousePointer\鼠标指针\Cursor\bin\Debug\Cursor.exe.manifest
+F:\GitHub\MousePointer\鼠标指针\Cursor\bin\Debug\Cursor.application
+F:\GitHub\MousePointer\鼠标指针\Cursor\obj\Debug\Cursor.exe.manifest
+F:\GitHub\MousePointer\鼠标指针\Cursor\obj\Debug\Cursor.application

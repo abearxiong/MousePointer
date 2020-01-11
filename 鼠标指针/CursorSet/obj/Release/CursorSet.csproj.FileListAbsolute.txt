@@ -17,3 +17,22 @@ F:\Abear GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.exe.ma
 F:\Abear GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.application
 F:\Abear GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.exe
 F:\Abear GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.pdb
+F:\GitHub\MousePointer\鼠标指针\CursorSet\bin\Release\CursorSet.exe.config
+F:\GitHub\MousePointer\鼠标指针\CursorSet\bin\Release\CursorSet.exe.manifest
+F:\GitHub\MousePointer\鼠标指针\CursorSet\bin\Release\CursorSet.application
+F:\GitHub\MousePointer\鼠标指针\CursorSet\bin\Release\CursorSet.exe
+F:\GitHub\MousePointer\鼠标指针\CursorSet\bin\Release\CursorSet.pdb
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.csprojAssemblyReference.cache
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\MainWindow.g.cs
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\App.g.cs
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet_MarkupCompile.cache
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet_MarkupCompile.lref
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\MainWindow.baml
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.g.resources
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.Properties.Resources.resources
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.csproj.GenerateResource.cache
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.TrustInfo.xml
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.exe.manifest
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.application
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.exe
+F:\GitHub\MousePointer\鼠标指针\CursorSet\obj\Release\CursorSet.pdb
