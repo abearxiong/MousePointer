@@ -7,7 +7,7 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="CursorSet.exe.manifest" size="4636">
+    <dependentAssembly dependencyType="install" codebase="Application Files\CursorSet_1_1_0_1\CursorSet.exe.manifest" size="4636">
       <assemblyIdentity name="CursorSet.exe" version="1.1.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
     </dependentAssembly>
   </dependency>
